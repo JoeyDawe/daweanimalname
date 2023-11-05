@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#97BC62"
+    tools:ignore="ExtraText"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="379dp"
+        android:layout_height="64dp"
+        android:background="#FFBE7B"
+        android:theme="?attr/actionBarTheme"
+        app:contentInsetStart="0dp"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title="Manage Blocked Animals"
+        app:titleTextColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="378dp"
+        android:layout_height="match_parent"
+        android:background="#FCEDDA"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="550dp"
+        android:text="@string/manage_block"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:textColor="#455A64"
+        tools:ignore="TextSizeCheck" />
+
+</LinearLayout>

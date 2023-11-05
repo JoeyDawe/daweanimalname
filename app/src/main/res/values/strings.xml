@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">daweanimalnames</string>
+    <string name="animal_details">Animal Details</string>
+    <string name="manage_block_animals">Manage Block Animals</string>
+    <string name="animal_names_from_a_to_z">Animal Names from A To Z</string>
+    <string name="manage_block_animal">Manage Block Animal</string>
+    <string name="animal_name">Animal_name</string>
+    <string name="block_animal">Block Animal</string>
+    <string name="block_button_description">block_button_description</string>
+    <string name="animal_description">animal_description</string>
+    <string name="manage_block">manage_block</string>
+    <string name="unblock">unblock</string>
+</resources>

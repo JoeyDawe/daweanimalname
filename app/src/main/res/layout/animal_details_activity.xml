@@ -1,0 +1,83 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFBE7B"
+    tools:context=".AnimalDetailAct"
+    tools:ignore="ExtraText">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/animalNameTextView"
+        android:layout_width="409dp"
+        android:layout_height="64dp"
+        android:background="#FCEDDA"
+        android:theme="?attr/actionBarTheme"
+        app:contentInsetStart="0dp"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:titleTextColor="#FFFFFF"
+        tools:context="."
+        tools:ignore="VisualLintBounds">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/animal_details"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:textColor="#455A64"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/tv_animal_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="1dp"
+        android:textStyle="bold"
+        android:paddingTop="18dp"
+        android:textColor="#000000"
+        android:text="@string/animal_name" />
+
+    <TextView
+        android:id="@+id/animalDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="1dp"
+        android:paddingTop="11dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="@string/animal_description" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <Button
+        android:id="@+id/addToBlockListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="1dp"
+        android:background="#8AAAE5"
+        android:contentDescription="@string/block_button_description"
+        android:text="@string/block_animal"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        tools:ignore="VisualLintButtonSize,TextContrastCheck" />
+
+</RelativeLayout>
